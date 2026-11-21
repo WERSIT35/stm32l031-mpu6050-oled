@@ -238,4 +238,4 @@ no minimum clock and the MPU-6050 has no bus timeout, so it is perfectly legal â
 
 ## License
 
-My application code is MIT licensed, see [LICENSE](LICENSE). The vendor code (STM32 HAL/CMSIS, lwIP and the middleware under `Drivers/` and `Middlewares/`) keeps its original licenses.
+My application code is MIT licensed, see [LICENSE](LICENSE). The vendor packs under `RTE/` (Keil / ST device support) keep their original licenses.
