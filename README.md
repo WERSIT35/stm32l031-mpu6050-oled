@@ -235,3 +235,7 @@ the stack during `SSD1306_UpdateScreen()`.
 **Bit-banged bus speed.** At 2.1 MHz SYSCLK the soft I²C runs near 4 kHz. Slow, but I²C has
 no minimum clock and the MPU-6050 has no bus timeout, so it is perfectly legal — the full
 112-address scan still completes in well under a second.
+
+## License
+
+My application code is MIT licensed, see [LICENSE](LICENSE). The vendor code (STM32 HAL/CMSIS, lwIP and the middleware under `Drivers/` and `Middlewares/`) keeps its original licenses.
